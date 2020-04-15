@@ -2,13 +2,14 @@
 # See README.md for instructions on how to do this
 
   def fizzbuzz(int)
+    if int % 15 == 0
+        "FizzBuzz"
 
-    if int % 3 == 0
+    elsif int % 3 == 0
       "Fizz"
     elsif int % 5 == 0
       "Buzz"
-    elsif int % 15 == 0
-        "FizzBuzz"   
+       
     else int % 3 && 5 != 0
 
     end
